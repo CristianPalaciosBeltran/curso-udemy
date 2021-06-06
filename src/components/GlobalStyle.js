@@ -22,10 +22,14 @@ export const GlobalStyle = createGlobalStyle`
     }
     
     body {
-       font-family: "Ubuntu", sans-serif !important;
+       font-family: 'Rubik', sans-serif;
        background: var(--dark);
        color: var(--light);
        font-size: var(--paragraphRegular);
+    }
+
+    .bg-dark{
+        background: var(--dark)!important;
     }
 
     ul {

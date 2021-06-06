@@ -39,6 +39,7 @@ export const GlobalStyle = createGlobalStyle`
     // textos
     .lead { font-size: var(--leadMedium); }
 
+    .text-dark {color: var(--dark)!important}
     .text-muted { color: var(--muted) !important; }
 
         h1 { font-size: var(--headline1); }
